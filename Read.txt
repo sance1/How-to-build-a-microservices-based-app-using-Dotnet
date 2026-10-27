@@ -1,0 +1,44 @@
+JetBrain Rider Aplication
+
+Vid-07 
+ProjectName : AuctionService
+target framework : net10.0
+template : web API
+
+Advanced Setting
+-checkbok
+DisableOpenAPI
+NoHttps
+UseControllers
+buat kode untuk visual studio - C# project
+# 1. Buat folder utama root untuk workspace Anda dan masuk ke dalamnya
+mkdir src
+cd src
+
+# 2. Buat file Solution (.sln) langsung di root folder src (akan menjadi src.sln)
+dotnet new sln
+
+# 3. Buat proyek Web API (AuctionService)
+dotnet new webapi -n AuctionService -f net10.0 --no-openapi --no-https --use-controllers
+
+# 4. Buat proyek Console (AuctionClient)
+dotnet new console -n AuctionClient -f net10.0
+
+# 5. Daftarkan kedua proyek ke dalam file src.sln
+dotnet sln add AuctionService/AuctionService.csproj
+dotnet sln add AuctionClient/AuctionClient.csproj
+
+# 6. Buka seluruh folder src ini langsung ke VS Code
+code .
+ atau untuk pokus API
+ mkdir src
+cd src
+dotnet new sln
+dotnet new webapi -n AuctionService -f net10.0 --no-openapi --no-https --use-controllers
+dotnet sln add AuctionService/AuctionService.csproj
+code .
+
+untuk menjalankan AutionService.https
+instal RestClient
+kembalik ke file nanti muncul tulisan send request
+
