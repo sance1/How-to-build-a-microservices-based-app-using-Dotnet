@@ -1,4 +1,5 @@
-JetBrain Rider Aplication
+
+VS Code 
 
 Vid-07 
 ProjectName : AuctionService
@@ -38,7 +39,29 @@ dotnet new webapi -n AuctionService -f net10.0 --no-openapi --no-https --use-con
 dotnet sln add AuctionService/AuctionService.csproj
 code .
 
+VD-08 
 untuk menjalankan AutionService.https
 instal RestClient
 kembalik ke file nanti muncul tulisan send request
+vid-11
+dotnet tool install -g dotnet-ef //perlu jika db blum dibuat jika tidak pesan eror Database does not exist
+dotnet ef migrations add Initial -o Data/Migrations  //initail ini namanya disesuaikan
+
+*kenapa perlu dihapus?? awalnya mau ada perubahan data
+dotnet ef migrations remove //Remove migrations atau undo *from AI
+dotnet ef migrations remove --force ////*from AI menghapus file yang ada di migration
+
+JetBrain Raider platform
+docker compose up -d  //memindahkan container ke docker  
+dikarnakan eror db autions
+-cek docker-compose.yml dan appsettings.Development.json sama kan setingan
+docker compose down -v // menghapus semua dan stop container --AI
+docker compose up -d // start ulang
+docker ef database update // from explanation video, jika tidak pakai jetraider
+
+//Error file to long dan except file bin, dll not in video
+error: open("Carsties/src/AuctionService/bin/Debug/net10.0/BuildHost-netcore/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.runtimeconfig.json"): Filename too long
+dotnet new gitignore
+git config --global core.longpaths true
+git add .
 
