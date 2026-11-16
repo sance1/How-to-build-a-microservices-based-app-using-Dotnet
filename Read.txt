@@ -39,6 +39,14 @@ dotnet new webapi -n AuctionService -f net10.0 --no-openapi --no-https --use-con
 dotnet sln add AuctionService/AuctionService.csproj
 code .
 
+Anda hanya perlu memindahkan/membuat ulang file solution tersebut dari dalam folder src ke folder luar Carsties:
+1. Tutup proyek di Rider lewat menu File > Close Solution.
+2. Hapus file src.sln atau src.slnx yang ada di dalam folder Carsties/src/.
+3. Buka terminal di folder utama Carsties (folder luar yang sejajar dengan src dan specs), lalu jalankan perintah:
+dotnet new sln -n Carsties
+dotnet sln add src/AuctionService/AuctionService.csproj
+*hapus slnnya saja //from me
+
 VD-08 
 untuk menjalankan AutionService.https
 instal RestClient
@@ -61,7 +69,14 @@ docker ef database update // from explanation video, jika tidak pakai jetraider
 
 //Error file to long dan except file bin, dll not in video
 error: open("Carsties/src/AuctionService/bin/Debug/net10.0/BuildHost-netcore/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.runtimeconfig.json"): Filename too long
+pastikan satu jajar dengan carties folder disni ada sln
 dotnet new gitignore
 git config --global core.longpaths true
 git add .
+
+VD-13
+docker compose down -v
+docker compose up -d
+
+
 
