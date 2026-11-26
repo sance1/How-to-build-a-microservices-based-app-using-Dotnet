@@ -118,3 +118,5 @@ D:\Course\How to build a microservices based app using .Net, NextJS, IdentitySer
 D:\Course\How to build a microservices based app using .Net, NextJS, IdentityServer, RabbitMQ running on Docker and Kubernetes\Carsties\src\auctionservice\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 D:\Course\How to build a microservices based app using .Net, NextJS, IdentityServer, RabbitMQ running on Docker and Kubernetes\Carsties\src\auctionservice\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 D:\Course\How to build a microservices based app using .Net, NextJS, IdentityServer, RabbitMQ running on Docker and Kubernetes\Carsties\src\auctionservice\obj\Debug\net10.0\AuctionS.72D7E915.Up2Date
+D:\Course\How to build a microservices based app using .Net, NextJS, IdentityServer, RabbitMQ running on Docker and Kubernetes\Carsties\src\AuctionService\bin\Debug\net10.0\Mapster.dll
+D:\Course\How to build a microservices based app using .Net, NextJS, IdentityServer, RabbitMQ running on Docker and Kubernetes\Carsties\src\AuctionService\bin\Debug\net10.0\Mapster.Core.dll

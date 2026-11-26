@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Course\\How to build a microservices based app using .Net, NextJS, IdentityServer, RabbitMQ running on Docker and Kubernetes\\Carsties\\src\\AuctionService\\AuctionService.csproj": {}
+    "D:\\Course\\How to build a microservices based app using .Net, NextJS, IdentityServer, RabbitMQ running on Docker and Kubernetes\\Carsties\\src\\auctionservice\\AuctionService.csproj": {}
   },
   "projects": {
-    "D:\\Course\\How to build a microservices based app using .Net, NextJS, IdentityServer, RabbitMQ running on Docker and Kubernetes\\Carsties\\src\\AuctionService\\AuctionService.csproj": {
+    "D:\\Course\\How to build a microservices based app using .Net, NextJS, IdentityServer, RabbitMQ running on Docker and Kubernetes\\Carsties\\src\\auctionservice\\AuctionService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Course\\How to build a microservices based app using .Net, NextJS, IdentityServer, RabbitMQ running on Docker and Kubernetes\\Carsties\\src\\AuctionService\\AuctionService.csproj",
+        "projectUniqueName": "D:\\Course\\How to build a microservices based app using .Net, NextJS, IdentityServer, RabbitMQ running on Docker and Kubernetes\\Carsties\\src\\auctionservice\\AuctionService.csproj",
         "projectName": "AuctionService",
-        "projectPath": "D:\\Course\\How to build a microservices based app using .Net, NextJS, IdentityServer, RabbitMQ running on Docker and Kubernetes\\Carsties\\src\\AuctionService\\AuctionService.csproj",
+        "projectPath": "D:\\Course\\How to build a microservices based app using .Net, NextJS, IdentityServer, RabbitMQ running on Docker and Kubernetes\\Carsties\\src\\auctionservice\\AuctionService.csproj",
         "packagesPath": "C:\\Users\\sance\\.nuget\\packages\\",
-        "outputPath": "D:\\Course\\How to build a microservices based app using .Net, NextJS, IdentityServer, RabbitMQ running on Docker and Kubernetes\\Carsties\\src\\AuctionService\\obj\\",
+        "outputPath": "D:\\Course\\How to build a microservices based app using .Net, NextJS, IdentityServer, RabbitMQ running on Docker and Kubernetes\\Carsties\\src\\auctionservice\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sance\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -46,6 +46,10 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[10.0.11, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "target": "Package",
               "version": "[10.0.10, )"

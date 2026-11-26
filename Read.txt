@@ -78,5 +78,42 @@ VD-13
 docker compose down -v
 docker compose up -d
 
+Not From video
+Docker error
+starting engine: resetting socket forwarder: running socket forwarder: running socket forwarder: setting up mux: setting up mux options: allocating mux: vpnkit-bridge handshake failed: unmarshalling 
+handshake: read '<nil>': not a connection to a mulitplexer; received bad magic string ' operation returned because the timeout period expir'
+Buka cmd as admininstrator
+wsl --shutdown
+
+net stop LxssManager
+net start LxssManager
+atau net stop LxssManager && net start LxssManager
+atau net stop LxssManager && net start LxssManager
+
+buka docker jika tidak bisa
+netsh winsock reset
+restart komputer
+
+--AI
+Satu-Satunya Perintah yang Harus Dihindari
+Data database baru akan terhapus jika kamu menjalankan 
+perintah wsl --unregister docker-desktop-data atau menekan tombol Purge data / Factory reset di dalam menu Docker Desktop.
+Jangan jalankan perintah tersebut agar database kamu tetap utuh.
+netsh winsock reset - reset jaringan 
+
+docker compose stop -> mematikan container
+wsl --shutdown -> memaksa mematikan container & docker (Jika hang/mutar)
+
+1. Selesai bekerja, jalankan docker compose stop di folder proyek kamu 
+(jika pakai docker compose down, pastikan tidak menambahkan -v karena -v menghapus volume database).
+2. Klik kanan ikon paus di pojok kanan bawah taskbar -> pilih Quit Docker Desktop.
+3. Baru matikan (Shut down) laptop kamu
+
+VD-15
+https://automapper.io/
+https://github.com/mapstermapper/mapster 
+add nuget mapster di jetbrain raider  
+
+5:25
 
 

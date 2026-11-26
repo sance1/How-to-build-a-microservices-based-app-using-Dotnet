@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "zshGst07neY=",
+  "dgSpecHash": "Ln7xmZ2WBNY=",
   "success": true,
-  "projectFilePath": "D:\\Course\\How to build a microservices based app using .Net, NextJS, IdentityServer, RabbitMQ running on Docker and Kubernetes\\Carsties\\src\\AuctionService\\AuctionService.csproj",
+  "projectFilePath": "D:\\Course\\How to build a microservices based app using .Net, NextJS, IdentityServer, RabbitMQ running on Docker and Kubernetes\\Carsties\\src\\auctionservice\\AuctionService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sance\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\sance\\.nuget\\packages\\mapster\\10.0.11\\mapster.10.0.11.nupkg.sha512",
+    "C:\\Users\\sance\\.nuget\\packages\\mapster.core\\10.0.11\\mapster.core.10.0.11.nupkg.sha512",
     "C:\\Users\\sance\\.nuget\\packages\\microsoft.build.framework\\18.0.2\\microsoft.build.framework.18.0.2.nupkg.sha512",
     "C:\\Users\\sance\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.11.0\\microsoft.codeanalysis.analyzers.3.11.0.nupkg.sha512",
     "C:\\Users\\sance\\.nuget\\packages\\microsoft.codeanalysis.common\\5.0.0\\microsoft.codeanalysis.common.5.0.0.nupkg.sha512",
