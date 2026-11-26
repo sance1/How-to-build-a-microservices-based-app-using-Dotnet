@@ -114,6 +114,9 @@ https://automapper.io/
 https://github.com/mapstermapper/mapster 
 add nuget mapster di jetbrain raider  
 
-5:25
+VD-21
+dotnet new list 
+dotnet new gitignore
+dotnet new gitignore --force
 
 

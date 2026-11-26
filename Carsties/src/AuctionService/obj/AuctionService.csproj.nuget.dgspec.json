@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Course\\How to build a microservices based app using .Net, NextJS, IdentityServer, RabbitMQ running on Docker and Kubernetes\\Carsties\\src\\auctionservice\\AuctionService.csproj": {}
+    "D:\\Course\\How to build a microservices based app using .Net, NextJS, IdentityServer, RabbitMQ running on Docker and Kubernetes\\Carsties\\src\\AuctionService\\AuctionService.csproj": {}
   },
   "projects": {
-    "D:\\Course\\How to build a microservices based app using .Net, NextJS, IdentityServer, RabbitMQ running on Docker and Kubernetes\\Carsties\\src\\auctionservice\\AuctionService.csproj": {
+    "D:\\Course\\How to build a microservices based app using .Net, NextJS, IdentityServer, RabbitMQ running on Docker and Kubernetes\\Carsties\\src\\AuctionService\\AuctionService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Course\\How to build a microservices based app using .Net, NextJS, IdentityServer, RabbitMQ running on Docker and Kubernetes\\Carsties\\src\\auctionservice\\AuctionService.csproj",
+        "projectUniqueName": "D:\\Course\\How to build a microservices based app using .Net, NextJS, IdentityServer, RabbitMQ running on Docker and Kubernetes\\Carsties\\src\\AuctionService\\AuctionService.csproj",
         "projectName": "AuctionService",
-        "projectPath": "D:\\Course\\How to build a microservices based app using .Net, NextJS, IdentityServer, RabbitMQ running on Docker and Kubernetes\\Carsties\\src\\auctionservice\\AuctionService.csproj",
+        "projectPath": "D:\\Course\\How to build a microservices based app using .Net, NextJS, IdentityServer, RabbitMQ running on Docker and Kubernetes\\Carsties\\src\\AuctionService\\AuctionService.csproj",
         "packagesPath": "C:\\Users\\sance\\.nuget\\packages\\",
-        "outputPath": "D:\\Course\\How to build a microservices based app using .Net, NextJS, IdentityServer, RabbitMQ running on Docker and Kubernetes\\Carsties\\src\\auctionservice\\obj\\",
+        "outputPath": "D:\\Course\\How to build a microservices based app using .Net, NextJS, IdentityServer, RabbitMQ running on Docker and Kubernetes\\Carsties\\src\\AuctionService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sance\\AppData\\Roaming\\NuGet\\NuGet.Config"

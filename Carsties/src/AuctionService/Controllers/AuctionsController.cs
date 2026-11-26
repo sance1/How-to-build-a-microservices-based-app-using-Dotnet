@@ -60,6 +60,7 @@ public async Task<ActionResult<AuctionDto>> CreateAuction(CreateAuctionDto creat
             .Include(x => x.Item)
             .FirstOrDefaultAsync(x => x.Id == id);
 
+        if(updateAuctionDto.Make == "foo") throw new Exception("bar");
         if(auction == null)
         {
             return NotFound();
@@ -73,6 +74,27 @@ public async Task<ActionResult<AuctionDto>> CreateAuction(CreateAuctionDto creat
         // TODO: Check seller is the name as the current user
         updateAuctionDto.Adapt(auction.Item);
 
+        await context.SaveChangesAsync();
+        return NoContent();
+    }
+
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteAuction(string id)
+    {
+        var auction = await context.Auctions.FindAsync(id);
+
+        if(auction == null)
+        {
+            return NotFound();
+        }
+
+        if(auction.CurrentHighBid > 0)
+        {
+            return BadRequest("Cannot delete auction that has bids");
+        }
+
+        //TODO: Check seller is the name as the current user
+        context.Auctions.Remove(auction);
         await context.SaveChangesAsync();
         return NoContent();
     }
